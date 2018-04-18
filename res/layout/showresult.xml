@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:background="#FFFFFF">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="결과"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:id="@+id/showresultTextView1"
+				android:textIsSelectable="false"
+				android:textSize="63sp"
+				android:textColor="#000000"/>
+
+			<TableLayout
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_below="@id/showresultTextView1"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="이용자님의 진단 질병과 처방 약은 다음과 같습니다."
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:textColor="#000000"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="질병1"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:textColor="#000000"
+					android:id="@+id/diseaseoneTextView"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Large Text"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:textColor="#E73327"
+					android:id="@+id/commentOne"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="질병2"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:textColor="#000000"
+					android:id="@+id/diseasetwoTextView"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Large Text"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:id="@+id/commentTwo"
+					android:textColor="#DE2F24"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Large Text"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:id="@+id/diseasethreeTextView"
+					android:textColor="#000000"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Large Text"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:id="@+id/commentThree"
+					android:textColor="#DA1D11"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="쾌유를 빕니다."
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:textColor="#000000"
+					android:background="#49C4B0"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="면책 : 이 결과를 맹신하는 것은 위험할 수 있으므로 반드시 병원에서 의사와 상담하시기 바랍니다."
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:background="#D72C17"
+					android:textColor="#000000"/>
+
+			</TableLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
