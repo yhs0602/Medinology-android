@@ -1,0 +1,3 @@
+[submodule "jni/eigen"]
+	path = jni/eigen
+	url = https://github.com/libigl/eigen.git
